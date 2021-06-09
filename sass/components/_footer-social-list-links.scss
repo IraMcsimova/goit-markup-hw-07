@@ -1,0 +1,21 @@
+.footer-icon-social-nets{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+        width:44px;
+        height:44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        fill:var(--hero-text-color);
+        transition-property: background-color;
+        transition-duration: var(--duration);
+        transition-timing-function: var(--time-function);
+     
+    }
+    .footer-icon-social-nets:hover,
+    .footer-icon-social-nets:focus{
+        background-color: var(--accent-text-color);}
+    .footer-icon-social-nets:not(:last-child)
+    {margin-right:10px;}
+    .footer-item-icon{
+            display:inline-flex;}
