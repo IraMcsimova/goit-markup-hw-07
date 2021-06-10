@@ -2,10 +2,12 @@
     display:flex;
     justify-content: space-between;
     margin-bottom:0;
-   }
-.products-list:not(:last-child){
+    
+    &:not(:last-child){
     margin-right:30px;
 }
+   }
+
 
 .products-card-wrapper{
     position:relative;

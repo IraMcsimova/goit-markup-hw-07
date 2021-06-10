@@ -16,12 +16,14 @@
     background-color:var(--site-nav-bg-color);
     transition-property: border, fill;
     transition-duration: var(--duration);
-    transition-timing-function: var(--time-function);
-    }
-    .icon-customers:hover{
+    transition-timing-function: var(--time-function); 
+    
+    &:hover{
         fill:var(--accent-text-color);
         border:  1px solid  #2196F3;
     }
+    }
+   
     .list-customers:not(:last-child){
     margin-right:30px;
     

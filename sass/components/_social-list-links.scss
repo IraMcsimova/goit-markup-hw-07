@@ -14,16 +14,20 @@
     transition-property: background-color, fill;
 transition-duration: var(--duration);
 transition-timing-function: var(--time-function);
-  }
-.item-social-nets:not(:last-child){
-    margin-right:10px;
-    
-}
-.icon-social-nets:hover,
-.icon-social-nets:focus{
+
+&:hover,
+&:focus{
 background-color: var(--accent-text-color);
 fill:var(--hero-text-color);
 }
+}
+.item-social-nets{
+&:not(:last-child){
+    margin-right:10px;
+    
+}
+}
+
 .icon-in-tw-f-in{
     width:20px;
     height:20px;

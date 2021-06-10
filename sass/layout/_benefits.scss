@@ -11,10 +11,12 @@
  }
  .benefits-item{
      width: 270px;
- }
- .benefits-item:not(:last-child){
+     
+&:not(:last-child){
      margin-right:30px;
  }
+ }
+ 
  
  .benefits .title{
  margin-bottom:10px;

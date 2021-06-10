@@ -10,12 +10,13 @@
         transition-property: background-color;
         transition-duration: var(--duration);
         transition-timing-function: var(--time-function);
-     
-    }
-    .footer-icon-social-nets:hover,
-    .footer-icon-social-nets:focus{
-        background-color: var(--accent-text-color);}
-    .footer-icon-social-nets:not(:last-child)
+    &:hover,
+    &:focus{
+        background-color: var(--accent-text-color);} 
+        
+    &:not(:last-child)
     {margin-right:10px;}
+    }
+   
     .footer-item-icon{
-            display:inline-flex;}
+    display:inline-flex;}

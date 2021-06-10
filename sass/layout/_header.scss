@@ -12,20 +12,23 @@
     font-size: 14px;
     line-height: 1,1;
     letter-spacing: 0.02em;
-   
+    
+   & .secondp-logo {
+    color:#000000;
+    }
 }
 .site-nav-list{
     display:flex;
     align-items:center;
     margin-bottom:0;
-  
-}
-        .site-nav-list::before{
+   &::before{
             display:block;
             content:"";
             width:60px;
             height: 1px;
         }
+}
+       
 .current::after{
     display: block;
     content: "";
@@ -54,9 +57,7 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 }
 
-.site-nav .secondp-logo {
-    color:#000000;
-    }
+
 
 .site-nav .link{
     position:relative;
@@ -67,14 +68,16 @@ letter-spacing: 0.03em;
     transition-property: color;
     transition-duration: var(--duration);
     transition-timing-function: var(--time-function);
-}
     
-
-.site-nav .link:hover,
-.site-nav .link:focus
+&:hover,
+&:focus
 {
 color:var(--accent-text-color);
 }
-.site-nav .link .current {
+& .current {
     color:var(--accent-text-color);}
+
+}
+    
+
 

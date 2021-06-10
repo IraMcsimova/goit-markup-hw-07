@@ -8,6 +8,11 @@
     display:inline-flex;
     align-items: baseline;
   justify-content:space-between;
+  & .logo{
+    margin-bottom:20px;
+    margin-right:0;
+
+  }
 }
 .footer .list{
     margin-bottom:0;
@@ -21,21 +26,20 @@
     color:var(--hero-text-color);
     display:flex;
     justify-content:center;
-}
-.footer .contacts{
+& .contacts{
 font-family: var(--main-font);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em;
+letter-spacing: 0.03em;}
 
+& .write-or-call{
+    color:rgba(255, 255, 255, 0.6);
 }
-.footer-container .logo{
-    margin-bottom:20px;
-    margin-right:0;
+}
 
-  }
+
 .footer .secondp-logo {
     color:var(--hero-text-color);
     }
@@ -45,16 +49,13 @@ letter-spacing: 0.03em;
     transition-property: color;
     transition-duration: var(--duration);
     transition-timing-function: var(--time-function);
-   
-    }
-    .footer .link:hover,
-    .footer .link:focus {
+   &:hover,
+    &:focus {
     color:var(--accent-text-color)
     }
-.footer .write-or-call{
-    color:rgba(255, 255, 255, 0.6);
-   
-}
+    }
+    
+
 .footer-icon-header{
     font-family:var(--main-font);
     text-transform: uppercase;

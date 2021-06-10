@@ -25,10 +25,12 @@ margin:0 auto;
 transition-property:fill;
 transition-duration: var(--duration);
 transition-timing-function: var(--time-function);
-}
-.modal-close-icon:hover{
+
+&:hover{
     fill:var(--accent-text-color);
 }
+}
+
 .modal-close-button{
 position:absolute;
 top:8px;
