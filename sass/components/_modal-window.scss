@@ -16,7 +16,7 @@
     pointer-events: none;
     
 }
-.modal-close-icon{
+.modal__close-icon{
 width:11px;
 height:11px;
 fill:var(--title-text-color);
@@ -31,7 +31,7 @@ transition-timing-function: var(--time-function);
 }
 }
 
-.modal-close-button{
+.modal__close-button{
 position:absolute;
 top:8px;
 right:8px;

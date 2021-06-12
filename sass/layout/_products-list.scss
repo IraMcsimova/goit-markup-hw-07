@@ -1,4 +1,4 @@
-.products-list{
+.products__list{
     display:flex;
     justify-content: space-between;
     margin-bottom:0;
@@ -9,11 +9,11 @@
    }
 
 
-.products-card-wrapper{
+.products__card-wrapper{
     position:relative;
 
 }
-.products-overlay{
+.products__overlay{
     position:absolute;
     bottom:0;
     left:0;

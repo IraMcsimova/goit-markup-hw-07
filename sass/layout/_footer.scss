@@ -1,3 +1,19 @@
+.footer {
+    background-color: var(--hero-footer-bg-color);
+    color:var(--hero-text-color);
+    display:flex;
+    justify-content:center;
+
+& .contacts{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;}
+
+}
+
 .footer-container{
     
     padding-top:60px;
@@ -8,39 +24,24 @@
     display:inline-flex;
     align-items: baseline;
   justify-content:space-between;
-  & .logo{
+  & .footer__logo{
     margin-bottom:20px;
     margin-right:0;
-
   }
 }
-.footer .list{
+.footer__list{
     margin-bottom:0;
    
 }
-.footer-item:not(:last-child){
+.footer__item:not(:last-child){
     margin-bottom:9px;
 }
-.footer {
-    background-color: var(--hero-footer-bg-color);
-    color:var(--hero-text-color);
-    display:flex;
-    justify-content:center;
-& .contacts{
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;}
-
-& .write-or-call{
-    color:rgba(255, 255, 255, 0.6);
-}
+.footer__item:not(:first-child){
+    color:rgba(255, 255, 255, 0.6); 
 }
 
 
-.footer .secondp-logo {
+.footer .logo__second-part_white {
     color:var(--hero-text-color);
     }
  
@@ -56,7 +57,7 @@ letter-spacing: 0.03em;}
     }
     
 
-.footer-icon-header{
+.footer__icon-header{
     font-family:var(--main-font);
     text-transform: uppercase;
  margin-bottom:20px;

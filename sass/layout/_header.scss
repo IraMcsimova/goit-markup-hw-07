@@ -13,11 +13,11 @@
     line-height: 1,1;
     letter-spacing: 0.02em;
     
-   & .secondp-logo {
+   & .logo__second-part_black {
     color:#000000;
     }
 }
-.site-nav-list{
+.site-nav__list{
     display:flex;
     align-items:center;
     margin-bottom:0;
@@ -41,7 +41,7 @@
     transform:translateY(1px);
     }
 
-.site-nav-item:not(:last-child){
+.site-nav__item:not(:last-child){
     margin-right: 50px;
         }
 
@@ -59,7 +59,7 @@ letter-spacing: 0.03em;
 
 
 
-.site-nav .link{
+.site-nav__link{
     position:relative;
     display:block;
     color:var(--title-text-color);

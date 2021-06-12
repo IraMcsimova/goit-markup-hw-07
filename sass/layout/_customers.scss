@@ -1,10 +1,10 @@
-.regular-customers{
+.customers__list{
     display:flex;
     align-items:center;
     margin-bottom:0;
     }
     
-    .icon-customers{
+    .customers__icon{
     display:flex;
     justify-content:center;
     align-items: center;
@@ -24,7 +24,7 @@
     }
     }
    
-    .list-customers:not(:last-child){
+    .customers__item:not(:last-child){
     margin-right:30px;
     
     }

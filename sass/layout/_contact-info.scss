@@ -1,7 +1,6 @@
 
 .header{
 & .contacts {
-    margin-bottom:0;
     display:flex;
     background-color: var(--site-nav-bg-color);
     font-weight: 500;
@@ -9,15 +8,15 @@
     line-height: 1,1;
     letter-spacing: 0.02em;
     }
-& .item:not(:last-child){
+    .header__contacts{
+        margin-bottom:0;
+    }
+& .contacts__item:not(:last-child){
     margin-right:50px;
 }
 }
 
-.top-contacts .item:not(:last-child){
-    margin-right:50px;
-}
-.contact-icon{
+.contacts__item{
     display:flex;
    color:var(--primary-text-color);
     fill:var(--primary-text-color);
@@ -38,14 +37,14 @@ transition-timing-function: var(--time-function);
 }
     }
 
-.icon-envelope{
+.contacts__icon-envelope{
     width:16px;
     height:12px;
     margin-right:10px;
     margin-bottom:2px;
     }
 
-.icon-smartphone{
+.contacts__icon-smartphone{
     width:10px;
     height:16px;
     margin-right:10px;
